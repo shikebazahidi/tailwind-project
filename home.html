@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="../src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<!-- npx @tailwindcss/cli -i ./src/input.css -0 ./src/output.css --watch -->
+<body>
+     <div class="relative">
+        <div id="head" class=" float-end h-[60px] w-full bg-black text-white flex justify-between leading-16 items-center px-3">
+            <h1 class="text-[20px] font-bold">coursera</h1>
+            <div class="flex  items-center font-bold gap-4">
+            <img class="rounded-full h-[50px] w-[50px]" src="../img/Screenshot_20250107_172952.jpg" alt="">
+            <h1>MR.Israr Ahmad</h1>
+
+            <span class="material-symbols-outlined">
+                notifications
+                </span>
+            <span id="bar" class="material-symbols-outlined">
+                menu
+                </span>
+            <span id="close" class="material-symbols-outlined" style="display: none;">
+                menu
+                </span>
+
+                <span class="material-symbols-outlined">
+                    logout
+                    </span>
+            </div>
+
+        </div>
+
+        <div id="menu" class=" hidden h-screen w-[30%] bg-black absolute top-0 left-0 text-white ">
+            <img class="rounded-full h-[50px] w-[50px] ml-[160px] " src="../img/Screenshot_20250107_172952.jpg" alt="">
+            <h1 class="font-bold ml-[130px]">MR.Israr Ahmad</h1>
+
+        <ul class="flex flex-col gap-4 ">
+            <li>
+                <span  class="material-symbols-outlined" ">
+                    menu
+                    </span>
+                <a href="">Dashborad</a></li>
+            <li>
+                
+                <span  class="material-symbols-outlined" >
+                    menu
+                    </span>
+                    <a href="">Dashborad</a></li>
+            <li>
+                <span class="material-symbols-outlined">
+                    menu_open
+                    </span>
+                    <a href="">User</a></li>
+            <li>
+                <span class="material-symbols-outlined">
+                    boy
+                    </span>
+                    <a href="">all User</a></li>
+            <li>
+                <span  class="material-symbols-outlined" >
+                    menu
+                    </span>
+                    <a href="">Dashborad</a></li>
+                    <li>
+                        intellgent students
+                    </li>
+        </ul>
+
+        </div>
+     </div>
+</body>
+</html>
